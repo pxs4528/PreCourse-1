@@ -1,3 +1,10 @@
+# The space complexity for a stack is O(n) where n is the number of elements in the stack.
+# The space complexity for a node is O(1).
+
+# The time complexity for the push operation is O(1).
+# The time complexity for the pop operation is O(1).
+# The time complexity for the is_empty operation is O(1).
+# The time complexity for the print_stack operation is O(n) where n is the number of elements in the stack.
 class Node:
     def __init__(self, data):
         self.data = data
